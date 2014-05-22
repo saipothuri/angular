@@ -1,0 +1,17 @@
+[{
+  			"name":"Marriot",
+  			"rate":40000,
+  			"location":"hyderabad",
+  			"Rating":2,
+  			"Review":"This is a <strong>Great </strong> Hotel",
+        "Image":"img/marriot.jpg"
+  		},
+  		{
+  			"name":"WestIn",
+  			"rate":500,
+  			"location":"india",
+  			"Rating":1,
+  			"Review":"This is a <strong>Bad </strong> Hotel",
+        "Image":"img/westin.jpg"
+  		}
+  	]

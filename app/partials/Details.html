@@ -1,0 +1,16 @@
+
+  <div class="row well"><img width="100px" ng-src ="{{Details.Image}}"></img></div>
+          <div class="row well" ng-bind ="Details.name"></div>
+          <div class="row well" ng-bind="Details.location"></div>
+          <div class="row well" ng-bind="Details.Rating"></div>
+          <div class="row well" ng-bind="Details.rate|currencyFilter|currency"></div>
+          Comments: 
+          <div class="row well" ng-repeat="(key,comment) in Comments track by $index">
+            <span ng-bind="comment"></span>
+          </div>
+          Comments : <input class="form-control" type="name" ng-model="Comment"/>
+          <button type="submit" class="btn btn-default" ng-click="SubmitComment(Comment,key)">Submit</button>
+          <!--<div class="row well" ng-repeat="comments in Details.comment">
+            <span class="row well" ng-bind ="comments.Value"></span>
+          </div>-->
+      </div>

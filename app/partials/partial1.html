@@ -1,0 +1,15 @@
+ <!--<div class="row">
+      <input type="text" ng-model="searchTerm"/>
+  </div>
+<div class="row well" ng-repeat="(key,hotel) in Hotels | filter:{name:searchTerm}| orderBy :'Rating'">
+	<div class="col-md-2 col-sm-5"><img width="100px" ng-src ="{{hotel.Image}}"></img></div>
+          <div class="col-md-1 col-sm-5"><a ng-href="#/Details/{{key}}" ng-bind ="hotel.name"></a></div>
+          <div class="col-md-1 col-sm-5" ng-bind="hotel.location"></div>
+          <div class="col-md-2 col-sm-5" ng-bind="hotel.Rating"></div>
+          <div class="col-md-2 col-sm-5" ng-bind="hotel.rate|currencyFilter|currency"></div>
+          <div class="col-md-2 col-sm-5" ng-bind-html="hotel.Review"></div>
+          <button ng-click="IncreaseRating(hotel)">Upvote</button>
+      </div>
+    </div>-->
+
+    <hotel-Summary></hotel-Summary>
